@@ -1,16 +1,21 @@
-# bossad
+## android 原生颜色属性
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+ ```
+    <style name="AppTheme.NoActionBar" >
+            <!-- 状态栏颜色 -->
+            <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+            <!-- 控制各个控件被选中时的颜色 -->
+            <item name="colorAccent">@color/colorAccent</item>
+            <!-- 页面背景色 -->
+            <item name="android:windowBackground">@color/windowBackg</item>
+            <!-- 底部导航栏颜色 -->
+            <item name="android:navigationBarColor">@color/navigationColor</item>
+            <!-- Appbar背景色 -->
+            <item name="android:colorPrimary">@color/colorPrimary</item>
+            <!-- ToolBar上的Title颜色 -->
+            <item name="android:textColorPrimary">@color/textColorPrimary</item>
+            <!-- 各个控件控制的默认颜色 -->
+            <item name="android:colorControlNormal">@color/colorControlNormal</item>
+        
+    </style>
+ ```
