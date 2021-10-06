@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:bossad/app/component/icon_tab.dart';
 import 'package:bossad/app/view/jobs_view.dart';
+import 'package:bossad/app/view/message_view.dart';
 
 class BossApp extends StatefulWidget {
   const BossApp({Key? key}) : super(key: key);
@@ -53,7 +54,7 @@ class HomeState extends State<BossApp> with SingleTickerProviderStateMixin {
         children: const <Widget>[
           JobsTab(),
           JobsTab(),
-          JobsTab(),
+          MessageTab(),
           JobsTab(),
         ],
         controller: _controller,
