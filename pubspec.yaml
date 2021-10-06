@@ -59,14 +59,22 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-     - assets/images/ic_main_tab_company_nor.png
-     - assets/images/ic_main_tab_company_pre.png
-     - assets/images/ic_main_tab_contacts_nor.png
-     - assets/images/ic_main_tab_contacts_pre.png
-     - assets/images/ic_main_tab_find_nor.png
-     - assets/images/ic_main_tab_find_pre.png
-     - assets/images/ic_main_tab_my_nor.png
-     - assets/images/ic_main_tab_my_pre.png
+    #  - assets/images/ic_main_tab_company_nor.png
+    #  - assets/images/ic_main_tab_company_pre.png
+    #  - assets/images/ic_main_tab_contacts_nor.png
+    #  - assets/images/ic_main_tab_contacts_pre.png
+    #  - assets/images/ic_main_tab_find_nor.png
+    #  - assets/images/ic_main_tab_find_pre.png
+    #  - assets/images/ic_main_tab_my_nor.png
+    #  - assets/images/ic_main_tab_my_pre.png
+       - assets/images/zhiwei.png
+       - assets/images/zhiwei_active.png
+       - assets/images/gongsi.png
+       - assets/images/gongsi_active.png
+       - assets/images/xiaoxi.png
+       - assets/images/xiaoxi_active.png
+       - assets/images/wode.png
+       - assets/images/wode_active.png
 
 
 

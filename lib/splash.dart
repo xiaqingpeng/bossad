@@ -1,4 +1,5 @@
 import 'dart:async';
+import 'package:bossad/home.dart';
 import 'package:flutter/material.dart';
 
 class SplashPage extends StatefulWidget {
@@ -13,7 +14,23 @@ class _SplashPageState extends State<SplashPage> {
   @override
   void initState() {
     super.initState();
-    _t = Timer(const Duration(milliseconds: 1500), () {});
+    _t = Timer(
+      const Duration(milliseconds: 1500),
+      () {
+        // ignore: unnecessary_null_comparison
+        try {
+          Navigator.of(context).pushAndRemoveUntil(
+              MaterialPageRoute(
+                  builder: (BuildContext context) => const BossApp()),
+              // ignore: unnecessary_null_comparison
+              (route) => route == null);
+        // ignore: empty_catches
+        } catch (e) {
+
+        }
+        
+      },
+    );
   }
 
   @override
@@ -28,12 +45,12 @@ class _SplashPageState extends State<SplashPage> {
     return Material(
       color: const Color.fromARGB(255, 0, 215, 198),
       child: Padding(
-        padding: const EdgeInsets.only(top: 150.0),
+        padding: const EdgeInsets.only(top: 250.0),
         child: Column(
           // ignore: prefer_const_literals_to_create_immutables
           children: <Widget>[
             const Text(
-              'Boss 直聘',
+              'Bossad 互娱',
               style: TextStyle(
                   fontSize: 50.0,
                   fontWeight: FontWeight.bold,

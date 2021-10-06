@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import './splash.dart';
+import 'package:bossad/splash.dart';
 void main() {
   runApp(const MyApp());
 }
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
         // ignore: deprecated_member_use
         accentColor: Colors.cyan[300]
       ),
-      home: SplashPage(),
+      home: const SplashPage(),
     );
   }
 }
