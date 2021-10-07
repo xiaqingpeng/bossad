@@ -53,7 +53,7 @@ class _JobsTabState extends State<JobsTab> {
       appBar: AppBar(
         elevation: 0.0,
         title: const Text(
-          'android',
+          '职位',
           style: TextStyle(fontSize: 20.0, color: Colors.white),
         ),
       ),

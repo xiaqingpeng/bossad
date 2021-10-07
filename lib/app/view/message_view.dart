@@ -52,7 +52,7 @@ class _MessageTabState extends State<MessageTab> {
       appBar: AppBar(
         elevation: 0.0,
         title: const Text(
-          'android',
+          '消息',
           style: TextStyle(fontSize: 20.0, color: Colors.white),
         ),
       ),
